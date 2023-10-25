@@ -1,0 +1,8 @@
+[Unit]
+Description=CUHK Hostel Network Auto Authenticator
+
+[Service]
+Type=simple
+ExecStart=[Your Python Absolute Path] [autowifi.py Absolute Path]
+Restart=on-failure
+KillMode=process
